@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run current Haskell file",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "runhaskell \"${file}\""
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
